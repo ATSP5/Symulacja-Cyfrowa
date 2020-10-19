@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Zdarzenia czasowe">
+      <UniqueIdentifier>{201dae4a-649a-401a-919e-785fd3198876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdarzenia warunkowe">
+      <UniqueIdentifier>{77d20735-8061-4a68-b562-09931baf49b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericIntegrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelecommunicationSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a5b_start.h">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EndOfACKTransmision.h">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EndOfChannelQuestioning.h">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EndOfPackageTransmision.h">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EndOfWaitForTransmision.h">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageGeneration.h">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="TransmisionOfPackage.h">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="IsChannelFree.h">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="StartOfACK.h">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericIntegrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Package.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelecommunicationSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a5b_start.cpp">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EndOfACKTransmision.cpp">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EndOfChannelQuestioning.cpp">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EndOfPackageTransmision.cpp">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EndOfWaitForTransmision.cpp">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="IsChannelFree.cpp">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageGeneration.cpp">
+      <Filter>Zdarzenia czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="TransmisionOfPackage.cpp">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="StartOfACK.cpp">
+      <Filter>Zdarzenia warunkowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
